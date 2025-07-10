@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Check-In Form | TranquilTalk</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f6fa;
+      color: #333;
+    }
+    header {
+      background-color: #d8c4e5;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #ede7f6;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0.5rem;
+      display: inline-block;
+      color: #5e5187;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 0.7rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #a48dd3;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    footer {
+      background-color: #d8c4e5;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TranquilTalk</h1>
+    <p>Your safe space to talk, heal, and breathe freely — anonymously.</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="policy.html">Free Policy</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="terms.html">Privacy</a>
+  </nav>
+  <main>
+    <h2>🧠 Check-In Before We Chat</h2>
+    <form onsubmit="startChat(); return false;">
+      <label for="age">Your Age (Optional)</label>
+      <input type="number" id="age" name="age" placeholder="e.g. 18" min="10" max="100" />
+
+      <label for="feeling">How are you feeling today?</label>
+      <textarea id="feeling" name="feeling" rows="5" placeholder="Type freely..."></textarea>
+
+      <button type="submit">Start Chat</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TranquilTalk | tranquiltalk.help@gmail.com</p>
+  </footer>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    function startChat() {
+      if (Tawk_API && Tawk_API.maximize) {
+        Tawk_API.maximize();
+      } else {
+        alert("Please wait, chat is still loading...");
+      }
+    }
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/686feefdb243fd190fc2b947/1ivqjr419";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html>
