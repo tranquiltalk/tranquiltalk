@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Policy | TranquilTalk</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f6fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d8c4e5;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      color: #5e5187;
+    }
+    ul {
+      list-style: square;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #d8c4e5;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #5e5187;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TranquilTalk - Free Policy</h1>
+  </header>
+  <main>
+    <h2>Our Promise for a Safe, Calm Space 🌿</h2>
+    <ul>
+      <li><strong>Anonymous Chat:</strong> No login or real identity needed. Your comfort comes first.</li>
+      <li><strong>Free for First 2 Days:</strong> Begin your healing journey at no cost.</li>
+      <li><strong>One at a Time:</strong> We assist one person at a time for focused attention.</li>
+      <li><strong>Be Respectful:</strong> No abuse, hate, trolling, or spamming allowed.</li>
+      <li><strong>Missed Session:</strong> If you're late or sessions are full, kindly wait or book again.</li>
+      <li><strong>Referral Notice:</strong> For serious mental health issues, we may guide you toward external licensed professionals.</li>
+    </ul>
+    <p>If you agree with this policy, feel free to <a href="index.html">go back and start chatting</a>.</p>
+  </main>
+  <footer>
+    &copy; 2025 TranquilTalk | tranquiltalk.help@gmail.com
+  </footer>
+</body>
+</html>
